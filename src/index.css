@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Raleway",'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/** css for login page **/
+.logo-image{
+  width:12%;
+}
+
+.btn,
+.form-control{
+  border-radius: 0;
+}
+
+
+/**nav bar **/
+.nav-link{
+  margin-right: 10px;
+  margin-left :10px;
+  color: black;
+  text-transform: uppercase;
+}
+
+.nav-link:hover{
+  color: black;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+
+/** UserInfo Styleing */
+@media (max-width: 768px) {
+  .img-profile-wrapper{
+    text-align: center;
+  }
+  .welcome{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 660;
+  }
+
+}
+
+/** Disconnected Status (Donut Chart)*/
+#pieChart {
+  width: 85%;
+  height: 70%;
+}
+
+/* footer styling**/
+.footer-social-list {
+  list-style:none;
+}
+
+.footer-social-list li{
+  margin-top: 20px;
+}
+
+.footer-social-icons{
+  border-radius: 50%;
+  padding:5px 12px;
+  margin-right: 20px;
+}
+
+.footer-contact-list{
+ list-style-type: none;
+}
+
+.footer-contacts{
+  margin-right: 20px;
+}
